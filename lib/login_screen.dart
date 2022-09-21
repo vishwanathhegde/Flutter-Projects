@@ -18,10 +18,11 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [Color(0xfff64650), Color(0xffce1b4d)])),
+        gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [Color(0xfff64650), Color(0xffce1b4d)]),
+      ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: SingleChildScrollView(

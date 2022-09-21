@@ -28,7 +28,19 @@ class MyApp extends StatelessWidget {
               fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
           bodyText1: TextStyle(fontSize: 15, color: Colors.black),
           subtitle2: TextStyle(fontSize: 15, color: Color(0xffce1b4d)),
+          subtitle1: TextStyle(fontSize: 13, color: Color(0xff000000)),
         ),
+        appBarTheme: AppBarTheme(
+          elevation: 7,
+          backgroundColor: Color(0xffce1b4d),
+          centerTitle: true,
+          titleTextStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+          iconTheme: IconThemeData(
+            color: Colors.white,
+            size: 30,
+          ),
+        ),
+        drawerTheme: DrawerThemeData(backgroundColor: Colors.white),
       ),
       home: AnimatedSplashScreen(
         duration: 3000,

@@ -28,8 +28,6 @@ class _BottomNavbarState extends State<BottomNavbar> {
           icon: Icon(Icons.search_outlined),
           label: 'SEARCH',
         ),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.person_outline_rounded), label: "PROFFILE"),
       ],
       currentIndex: widget.index,
       selectedItemColor: Color(0xffce1b4d),
